@@ -1,0 +1,17 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<ListView android:id="@android:id/list" android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:dividerHeight="4dip"
+		android:divider="@android:color/transparent"
+
+		android:layout_marginLeft="5dip" android:layout_marginRight="5dip" />
+
+	<TextView android:id="@android:id/empty" android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:text="empty"
+		android:gravity="center_vertical|center_horizontal" />
+
+	
+	
+</LinearLayout>

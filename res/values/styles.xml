@@ -1,0 +1,36 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    
+    <style name="black">
+        <item name="android:background">@drawable/titulo</item>
+    </style>
+    
+    <style name="Titulo">
+	 	<item name="android:textStyle">bold</item>
+	 	<item name="android:textColor">#fff</item>
+	 	<item name="android:gravity">center</item>
+	 	<item name="android:paddingLeft">25dip</item>
+	 	<item name="android:textSize">30sp</item>
+	 	<item name="android:shadowColor">#c40000</item>
+	 	<item name="android:shadowRadius">2</item>	</style>
+
+    <!-- Application theme. -->
+    
+    <style name="tema" parent="android:Theme">
+   	 <item name="android:windowTitleBackgroundStyle">@style/black</item>
+   		<item name="android:windowTitleStyle">@style/Titulo</item>
+   		<item name="android:windowTitleSize">50sp</item>
+    </style>
+
+</resources>
